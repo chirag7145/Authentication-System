@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %} {{block.super}} System {% endblock title %}
+
+{% block content %}
+<h2>Homepage</h2>
+<p>Welcome : {{ user.username }}</p>
+<p><strong>Total no. of registered users : {{ count }}</strong></p>
+{% endblock content %}
